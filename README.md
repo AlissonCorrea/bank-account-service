@@ -32,8 +32,6 @@ Antes de começar, certifique-se de ter o seguinte instalado em sua máquina:
    ACCOUNT=XXXXXXXXXXXX
    REGION=XXXXXXXX
    ```
-   
-   Substitua bank-account-table-name pelo nome da tabela no banco de dados.
   
 ## Implantação
 
