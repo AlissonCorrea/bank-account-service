@@ -18,7 +18,7 @@ const tags = {
   team: "BankAccountService"
 }
 
-new BankAccountServiceStack(app, 'BankAccountServiceStack', { 
+new BankAccountServiceStack(app, `BankAccountServiceStack-${process.env.NAMESPACE}`, { 
   env: env,
   tags: tags,
 });
